@@ -25,13 +25,13 @@ body {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: space-around;
-    h2{
-      text-align: center;
-    }
-    h3{
-      text-align: center;
-      color: #ff00bf;
-    }
+  }
+ .todo-list h2{
+    text-align: center;
+  }
+ .todo-list h3{
+    text-align: center;
+    color: #ff00bf;
   }
   .task-items{
     border-radius: 10px;
@@ -66,11 +66,6 @@ body {
     background-color: #45a049;
   }
   
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
   .todo-item {
     display: flex;
     justify-content: space-between;
@@ -80,6 +75,10 @@ body {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
   }
   
   .delete-btn {
